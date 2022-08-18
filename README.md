@@ -39,6 +39,6 @@ Windows PowerShell:
 #### GET /licenses_and_certifications
 #### GET /skills
 
-Flask CLI command that prints the data to the console:
+# Flask CLI command that prints the data to the console:
 
 ### flask show-candidate-info
