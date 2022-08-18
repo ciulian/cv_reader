@@ -1,9 +1,9 @@
-# cv_reader
-Simple rest api that parses cv/resume information
-# Prerequisites:
+# Simple Python Flask application that presents your CV data
+
+## Prerequisites:
 Any environment with flask installed (anaconda)
 
-# Creating the environment/Running the app:
+## Creating the environment/Running the app:
 
 1)Open anaconda prompt
 
@@ -31,7 +31,7 @@ Windows PowerShell:
 
 ---------------------------------
 
-# ENDPOINTS:
+## ENDPOINTS:
 
 #### GET /personal 
 #### GET /summary 
@@ -39,6 +39,6 @@ Windows PowerShell:
 #### GET /licenses_and_certifications
 #### GET /skills
 
-# Flask CLI command that prints the data to the console:
+## Flask CLI command that prints the data to the console:
 
 ### flask show-candidate-info
