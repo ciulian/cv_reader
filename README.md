@@ -41,4 +41,4 @@ Windows PowerShell:
 
 Flask CLI command that prints the data to the console:
 
-flask show-candidate-info
+### flask show-candidate-info
