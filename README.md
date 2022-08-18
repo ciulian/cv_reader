@@ -18,16 +18,19 @@ The flask command is installed by Flask, not your application; it must be told w
 Unix Bash (Linux, Mac, etc.):
 
 $ export FLASK_APP=cv_reader.py
+
 $ flask run
 
 Windows CMD:
 
 > set FLASK_APP=cv_reader.py
+> 
 > flask run
 
 Windows PowerShell:
 
 > $env:FLASK_APP="cv_reader.py"
+> 
 > flask run
 
 ---------------------------------
