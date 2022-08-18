@@ -12,6 +12,7 @@ Any environment with flask installed (anaconda)
 #### conda env create -f environment.yml
 
 3)Application Discovery
+
 The flask command is installed by Flask, not your application; it must be told where to find your application in order to use it. The FLASK_APP environment variable is used to specify how to load the application.
 
 Unix Bash (Linux, Mac, etc.):
