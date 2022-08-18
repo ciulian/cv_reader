@@ -9,7 +9,7 @@ Any environment with flask installed (anaconda)
 
 2)Install all packages needed for flask(all are stored inside environment):
 
-conda env create -f environment.yml
+#### conda env create -f environment.yml
 
 3)Application Discovery
 The flask command is installed by Flask, not your application; it must be told where to find your application in order to use it. The FLASK_APP environment variable is used to specify how to load the application.
@@ -33,11 +33,11 @@ Windows PowerShell:
 
 # ENDPOINTS:
 
-http://127.0.0.1:5000/personal
-http://127.0.0.1:5000/summary
-http://127.0.0.1:5000/experience
-http://127.0.0.1:5000/licenses_and_certifications
-http://127.0.0.1:5000/skills
+#### GET /personal 
+#### GET /summary 
+#### GET /experience
+#### GET /licenses_and_certifications
+#### GET /skills
 
 Flask CLI command that prints the data to the console:
 
